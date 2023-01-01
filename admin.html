@@ -16,26 +16,86 @@
 
 <body>
     <div class="container">
-            <div class="container-title">
-                <div class="grid-row">
-                    <div class="grid-column ">Quản lí đề tài</div>
-                    <div class="grid-column  grid-column-search "><input class="input_search" type="text" placeholder="Tìm kiếm"> <i class="fa-solid fa-magnifying-glass"></i></div>
-                    <label class="navbar-login__link">
-                        <i class="fas fa-user-circle"></i>
+            
+
+            <header class="header-content">
+                <div class="width56"></div>
+                <div class="cards-single">
+                     <span>Quản lí đề tài</span>
+                </div>
+                
+                <div class="user-wrapper">
+                    <div class="user-img">
+                        <i class="fas fa-user-circle user-img__src"></i>
                         <div class="user-menu">
                             <ul class="user-menu__list">
                                 <li class="user-menu__item">
-                                    <a href="/coffee_shop/widget/order/order.php" class="user-menu__link">Đơn mua</a>
+                                    <a href="/admincoffee/loginadmin/loginadmin.php" class="user-menu__link">Đăng xuất</a>
                                 </li>
-                                <li class="user-menu__item">
-                                    <a href="/coffee_shop/widget/logout.php" class="user-menu__link">Đăng xuất</a>
-                                </li>
-                                
                             </ul>
                         </div>
-                    </label>
                     </div>
                 </div>
+             </header>
+
+            <div class="container-topics">
+                <ul>
+                    <li><a href="">Đề tài thứ n</a></li>
+                    <li><a href="">Đề tài thứ n</a></li>
+                    <li><a href="">Đề tài thứ n</a></li>
+                    <li><a href="">Đề tài thứ n</a></li>
+                    <li><a href="">Đề tài thứ n</a></li>
+                </ul>
             </div>
+            <div class="div-btn">
+                <button class="btn-insert">Thêm</button>
+            </div>
+            <table class="table-topics">
+                <tr>
+                    <td class="tb-column tb-first-row">Tên chủ đề</td>
+                    <td class="tb-column tb-first-row">Mã bài</td>
+                    <td class="tb-column tb-first-row">Nội dung bài</td>
+                    <td class="tb-column tb-first-row">Ngày đăng</td>
+                    <td class="tb-column tb-first-row" >Người hướng dẫn</td>
+                    <td class="tb-column tb-first-row">Người thực hiện</td>
+                    <td class="tb-column tb-first-row">Sửa</td>
+                    <td class="tb-column tb-first-row">Xóa</td>
+                    <td class="tb-column tb-first-row">Xem chi tiết</td>
+                </tr>
+            </table>
+            <!--bảng thêm-->
+            <!-- <table class="table-insert-topics">
+                <tr>
+                    <td class="tb-column tb-first-row">
+                        <label class ="lb-insert" for="input_ma_code">Tên chủ đề</label>
+                    <input type="text" id="input_ma_code" class="input_name" name="macode"  placeholder="BDJW88">
+                    </td>
+                    <td class="tb-column tb-first-row">
+                        <label class ="lb-insert" for="input_ten_code">Mã bài</label>
+                    <input type="text" id="input_ten_code" class="input_insert" name="tenma" placeholder="Quocdz">
+                    </td>
+                    <td class="tb-column tb-first-row">
+                        <label class ="lb-insert" for="input_ten_code">Tên bài</label>
+                    <input type="text" id="input_ten_code" class="input_insert" name="tenma" placeholder="Quocdz">
+                        </td>
+                        <td class="tb-column tb-first-row">
+                            <label class ="lb-insert" for="input_ten_code">Nội dung</label>
+                    <input type="text" id="input_ten_code" class="input_insert" name="tenma" placeholder="Quocdz">
+                        </td>
+                    <td class="tb-column tb-first-row">
+                        <label class ="lb-insert" for="input_ten_code">Ngày đăng</label>
+                    <input type="text" id="input_ten_code" class="input_insert" name="tenma" placeholder="Quocdz">
+                    </td>
+                    <td class="tb-column tb-first-row" >
+                        <label class ="lb-insert" for="input_ten_code">Người hướng dẫn</label>
+                    <input type="text" id="input_ten_code" class="input_insert" name="tenma" placeholder="Quocdz">
+                    </td>
+                    <td class="tb-column tb-first-row">
+                        <label class ="lb-insert" for="input_ten_code">Người thực hiện</label>
+                    <input type="text" id="input_ten_code" class="input_insert" name="tenma" placeholder="Quocdz">
+                    </td>
+                </tr>
+            </table> -->
+
     </div>   
 </body>
