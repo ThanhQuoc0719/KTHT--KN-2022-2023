@@ -183,6 +183,17 @@ outline: none;
     justify-content: center;
     padding: 50px;
 }
+.table-Notification{
+    width: 1000px;
+    position: fixed;
+    right: 0px;
+    top: 77px;
+    height: 100%;
+    background-color: rgb(255,255,256);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
 .tb-column{
     padding: 15px;
     text-align: center;
